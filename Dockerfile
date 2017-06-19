@@ -1,6 +1,6 @@
 FROM python:3
 
-ARG ELECTRUMX_VERSION=1.0.10
+ARG ELECTRUMX_VERSION=1.0.11
 
 RUN apt-get update && \
     apt-get install libleveldb-dev -y && \
